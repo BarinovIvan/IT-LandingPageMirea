@@ -1,0 +1,26 @@
+.partners{
+
+	padding: 120px 0;
+
+	.partners__list{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap:30px;
+
+		.partners__item{
+			width: 250px;
+			padding: 30px;
+			display: flex;
+			flex-basis: 25%;
+			align-self: center;
+			align-items: center;
+			flex-direction: column;
+			box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+		}
+	}
+
+	.subtitle:before {
+		display: none;
+	}
+}

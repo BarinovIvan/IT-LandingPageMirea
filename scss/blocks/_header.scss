@@ -1,0 +1,30 @@
+.header {
+	padding: 30px 0;
+	margin-bottom: 120px;
+	background-color: #fff7f4;
+
+	& > div {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		h1 {
+			line-height: 46px;
+			font-size: 39.06px;
+		}
+
+		nav {
+			align-items: center;
+
+			a {
+				font-size: 20px;
+				font-weight: 500;
+				line-height: 30px;
+			}
+
+			& > *:not(:last-child) {
+				margin-right: 30px;
+			}
+		}
+	}
+}

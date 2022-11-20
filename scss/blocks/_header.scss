@@ -3,6 +3,12 @@
 	margin-bottom: 120px;
 	background-color: #fff7f4;
 
+	&__logo{
+		display: flex;
+		align-items: center;
+		gap: 40px;
+	}
+
 	& > div {
 		display: flex;
 		align-items: center;
@@ -11,6 +17,10 @@
 		h1 {
 			line-height: 46px;
 			font-size: 39.06px;
+		}
+
+		img{
+			width: 100px;
 		}
 
 		nav {

@@ -76,6 +76,11 @@ section:nth-child(odd) {
   margin-bottom: 120px;
   background-color: #fff7f4;
 }
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .header > div {
   display: flex;
   align-items: center;
@@ -84,6 +89,9 @@ section:nth-child(odd) {
 .header > div h1 {
   line-height: 46px;
   font-size: 39.06px;
+}
+.header > div img {
+  width: 100px;
 }
 .header > div nav {
   align-items: center;
@@ -147,7 +155,7 @@ section:nth-child(odd) {
 .what-we-do .service__list .service__item {
   left: 0px;
   top: 121px;
-  width: 370px;
+  width: 400px;
   height: 290px;
   padding: 25px 30px;
   border-radius: 10px;
